@@ -21,12 +21,18 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Employee id"/>
+        android:id="@+id/empid"
+        android:hint="Employee id"
+        android:inputType="number"
+        />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Employee First name"/>
+        android:id="@+id/empname"
+        android:hint="Employee First name"
+        android:inputType="textPersonName"
+        />
 
 
     <Button
@@ -35,6 +41,7 @@
         android:text="Update Employee"
         android:backgroundTint="#2196F3"
         android:textAlignment="center"
+        android:id="@+id/btnupdate"
         android:layout_marginTop="10dp"/>
 
 

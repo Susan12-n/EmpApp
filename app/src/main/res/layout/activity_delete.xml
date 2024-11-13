@@ -18,5 +18,16 @@
         android:padding="20sp"
         android:textSize="20sp"
         android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_number"
+        android:text=""/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btndelete"
+        android:text="DELETE EMPLOYEE"/>
 
 </LinearLayout>
